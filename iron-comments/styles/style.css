@@ -2,10 +2,45 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
+    width: 100vw;  
+    background-color: #000000;  
+    font-size: 16px;
+    
 
 }
 
 #form-container {
     margin: auto;
+    width: 250px;
+    color: #ffffff;
+    border: 3px solid rgb(67,163, 230);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px 25px 20px 20px
+}
+
+.text-area{
+    height: 150px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.submit{
+    background-color: rgb(67,163, 230) ;
+    border-radius: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    padding: 7px;
+    width: 80px ;
+}
+
+.espaciado-celdas{
+    margin-bottom: 3px;
+}
+
+.espaciado-celdas-grande{
+    margin-bottom: 6px;
 }
